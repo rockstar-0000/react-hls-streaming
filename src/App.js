@@ -24,7 +24,7 @@ function App() {
     <br/>
       <Button color="primary" variant="contained" onClick={clickSend}> Show streaming </Button> 
       <br/><br/>
-      <TextField id="nameInput" label="Streaming URL:" variant="outlined" type="input" autoComplete="off"  onChange={changeText} defaultValue=""  value={userText} />
+      <TextField id="nameInput" label="Streaming URL:" variant="outlined" type="input" autoComplete="off"  onChange={changeText} defaultValue=""  value={userText} style={{width: '50%'}} />
       <br/><br/>
       <ReactHlsPlayer
         playerRef={playerRef}
